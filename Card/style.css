@@ -2,11 +2,11 @@
 header img {
     border: 1px solid gray;
     margin-bottom: -5px;
+    width: 30%;
+
 }
 
-header img {
-    width: 30%;
-}
+/* article */
 
 .item {
     border: 1px solid gray;
