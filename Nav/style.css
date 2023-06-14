@@ -1,0 +1,50 @@
+nav {
+    text-align: center;
+    background-color: rgb(29 36 48);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.navbar, .home {
+    color: white;
+    font-size: 22px;
+}
+
+.home {
+    padding: 0px 15px;
+}
+
+.link {
+    color: lightgray;
+    font-size: 22px;
+}
+
+.dropdown {
+    background-color: rgb(29 36 48);
+    border-color: transparent;
+    color: lightgrey;
+    font-size: 22px;
+}
+
+.disabled {
+    background-color: rgb(29 36 48);
+    border-color: transparent;
+    color: gray;
+    font-size: 22px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.search {
+    font-size: 20px;
+}
+
+.search:hover {
+    background-color: rgb(16, 61, 16);
+    color: aliceblue;
+}
+
