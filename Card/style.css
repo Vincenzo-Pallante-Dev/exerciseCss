@@ -1,0 +1,21 @@
+/* header */
+header img {
+    border: 1px solid gray;
+    margin-bottom: -5px;
+    width: 30%;
+
+}
+
+/* article */
+
+.item {
+    border: 1px solid gray;
+    width: 30%;
+
+}
+
+/* footer */
+footer {
+    border: 1px solid gray;
+    width: 30%;
+}
