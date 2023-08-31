@@ -1,0 +1,98 @@
+nav {
+    background-color: rgb(29 36 48);
+    height: 30px;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+.linkNav, section {
+    display: inline;
+    padding: 10px;
+}
+
+.navbar, .home {
+    color: white;
+    font-size: 22px;
+}
+
+.home {
+    padding: 0px 15px;
+}
+
+.link {
+    color: lightgray;
+    font-size: 22px;
+}
+
+.dropdown > select {
+    background-color: rgb(29 36 48);
+    border-color: transparent;
+    color: lightgrey;
+    font-size: 22px;
+}
+
+.disabled {
+    display: inline;
+}
+
+.disabled > button {
+    background-color: rgb(29 36 48);
+    border-color: transparent;
+    color: gray;
+    font-size: 22px;
+    display: inline;
+    padding-right: 50px;
+}
+
+.searchBar {
+    display: inline;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.search {
+    font-size: 20px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+
+.search:hover {
+    background-color: rgb(16, 61, 16);
+    color: aliceblue;
+}
+
+.hamburger {
+    display: inline;
+    visibility: hidden;
+}
+
+@media (max-width: 928px) {
+    nav {
+        height: auto;
+        width: 550px;
+    }
+    .searchBar {
+        display: flex;
+        margin-left: 30px;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        visibility: hidden;
+    }
+    .hamburger {
+        visibility: visible;
+        text-align: start;
+    }
+}
+
