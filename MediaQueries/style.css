@@ -1,0 +1,97 @@
+main {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(163, 163, 163);
+    width: 300px;
+    height: 470px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 47px 350px;
+}
+
+.flexName {
+    display: grid;
+    width: 300px;
+    height: 2px;
+    grid-template-columns: 60px 180px 60px;
+    grid-template-rows: 48px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.bordRadius {
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    background-color: white;
+    border-radius: 40px;
+    grid-area: 1 / 1 / 1 / 2;
+}
+
+.name {
+    grid-area: 1 / 2 / 1 / 3;
+    align-self: center;
+    font-size: 18px;
+    max-width: 13ch;
+}
+
+.data {
+    color: beige;
+    font-size: 14px;
+}
+
+.puntini {
+    text-align: end;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 300px;
+}
+
+.icons {
+    display: flex;
+    padding: 10px;
+}
+
+.icon {
+    width: 28px;
+    padding-top: 8px;
+}
+
+figcaption {
+    padding: 5px;
+}
+
+.gatto {
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    main {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
